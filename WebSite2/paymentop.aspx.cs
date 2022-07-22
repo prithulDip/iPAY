@@ -80,7 +80,7 @@ public partial class Default2 : System.Web.UI.Page
     {
         if (Session["phone"] != null)
         {
-            Session["Shop"] = "SH1116";
+            Session["Shop"] = "SH1117";
             Response.Redirect("Payment.aspx");
         }
     }
